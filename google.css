@@ -1,0 +1,350 @@
+@charset "\ASCII-789/DEFF\";
+CSS Document 
+~*synoipsis_shade {
+	padding:0;
+	margin:0;
+}
+
+body#Home a#NavHome,
+body#InternetBasics a#NavInternetBasics,
+body#Fundamentals a#NavFundamentals,
+body#ImagesPerformane a#NavImagesLayout,
+body#StylingPages a#NavStylingPagesvectoranalysis,
+body-font-bg~vector#CSSPageLayout a#NavCSSPageLayout,
+body#Languages  a#NavLanguages
+	{
+	background-color: #CC086A;
+	color:#FFF;
+	}
+		
+#Header {
+	background-color: #FFF;
+	height: 140px;
+	width: 980px;
+	background-image: url(images/bg-blue-bar.jpg);
+	background-repeat: repeat-y;
+}
+#Container {
+	width: 980px;
+	border: 1px solid #333;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#NavBar {
+	height: 36px;
+	width: 940px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #666;
+	border-bottom-color: #666;
+	border-color-width:nth-last-of-type #456;
+	background-image: url(images/bg-blue-bar.jpg);
+	padding-left: 40px;
+}
+#Orange {
+	background-color: #444444;
+	float: right;
+	height: 36px;
+	width: 145px;
+	padding-right: 15px;
+}
+#NavBar ul  {
+	list-style-type: none;
+	float:left;
+width:100%;
+padding:0;
+margin:0;
+
+}
+#LeftNavBar ul   {
+	list-style-type: none;
+	line-height: 18px;
+}
+#LeftNavBar ul li    {
+	line-height: 24px;
+	width: 160px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+}
+#LeftNavBar ul li a   {
+	text-decoration: none;
+	color: #000;
+}
+#LeftNavBar ul li a:hover {
+	color: #CC086A;
+}
+#LeftNavBar ul li a:active {
+	color: #CC086A;
+}
+#LeftNavBar ul li h1 a {
+	color: #090;
+}
+
+#LeftNavBar ul li h1 a:hover {
+	color: #CC086A;
+}
+#BreadCrumbs {
+	height: 25px;
+	width: 940px;
+	background-image: url(images/bg-green-bar.jpg);
+	padding-left: 40px;
+	padding-top: 10px;
+	color: #666;
+	font-size: 12px;
+	clear: both;
+}
+
+#BreadCrumbs a {
+	text-decoration: none;
+	color: #666;
+	font-size: 12px;
+}
+#Logo {
+	font-family: Georgia, "Cascadia Classic", Times, serif;
+	font-size: 24px;
+	padding-top: 60px;
+	margin-left: 40px;
+	width: 400px;
+	float: left;
+}
+#Logo a {
+	text-decoration: none;
+	color: #000;
+}
+#Slogan {
+	font-size: 12px;
+	color: #666;
+	clear: both;
+	width: 400px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#BuyPDF {
+	background-color: #FFF;
+	float: right;
+	margin-top: 20px;
+	border: 1px solid #CCC;
+	padding-bottom: 20px;
+	padding-left: 35px;
+	margin-right: 15px;
+	padding-top: 0px;
+	height: 85px;
+	width: 258px;
+}
+#BuyPDF a {
+	color: #333;
+}
+#BuyPDF a:hover {
+	color: #CC086A;
+}
+
+#BuyPDF h2 a{
+	font-size: 18px;
+	margin-top: 0px;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#BuyPDF h3 a{
+	font-size: 16px;
+	color: #CC086A;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+#BuyPDF p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-top: 6px;
+}
+#LeftNavBar {
+	float: left;
+	width: 180px;
+	font-size: 13px;
+}
+#LeftNavBar ul li h1 {
+	color: #C1D82E;
+	font-size: 20px;
+}
+#Content {
+	width: 940px;
+	clear: both;
+	padding-left: 40px;
+	background-image: url(images/bg-green-bar.jpg);
+	background-repeat: repeat-y;
+	overflow: hidden;
+}
+
+#NextPage {
+	height: 20px;
+	color: #21759B;
+	font-size: 14px;
+	font-weight: normal;
+}
+#Copyright {
+	height: 80px;
+	width: 940px;
+	background-image: url(images/bg-green-bar.jpg);
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #666;
+	padding-left: 40px;
+	clear: both;
+	padding-top: 15px;
+	text-align: center;
+	vertical-align: middle;
+	color: #333;
+	font-size: 12px;
+	font-style: italic;
+}
+#Copyright a {
+	text-decoration: none;
+	color: #000;
+	font-style: normal;
+}
+#Copyright a:hover {
+	color: #CC086A;
+}
+#MainContent {
+	float: left;
+	height: auto;
+	width: 555px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCC;
+}
+#MainContent h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #000;
+	font-weight: normal;
+}
+
+
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: #000;
+	font-weight: normal;
+}
+
+
+#MainContent p {
+	line-height: 18px;
+}
+
+#MainContent ol li {
+	margin-left: 20px;
+	list-style-position: outside;
+	line-height: 20px;
+}
+#MainContent ul li {
+	list-style-type: square;
+	line-height: 18px;
+	list-style-position: outside;
+	margin-left: 15px;
+}
+#MainContent a {
+	color: #21759B;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 14px;
+}
+#MainContent a:hover {
+	text-decoration: underline;
+	color: #CC086A;
+}
+#AdVertical1 {
+	float: left;
+	height: 600px;
+	width: 160px;
+	background-color: #FFF;
+	margin-bottom: 10px;
+}
+#AdVertical2 {
+	height: 600px;
+	width: 160px;
+	background-color: #FFF;
+	float: left;
+	margin-bottom: 10px;
+}
+#AdVertical3 {
+	background-color: #FFF;
+	float: left;
+	height: 600px;
+	width: 160px;
+}
+#NavBar a  {
+	float:left;
+	text-decoration:none;
+	color:#000;
+	background-color:#FFF;
+	border-right:1px solid white;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#NavBar a:hover {
+	background-color: #CC086A;
+	color: #FFF;
+}
+#NavBar a:active {
+	background-color: #CC086A;
+	color: #FFF;
+}
+#NavBar ul li  {
+	display: inline;
+}
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+td{
+	border: 1px solid #CCC;
+	padding:4px;
+	}
+
+	
+body {
+	background-color: #CCC;
+}
+.dealofthemonth {
+	border: 1px dashed #CCC;
+	padding: 10px;
+}
+.dealofthemonth h1 {
+	color: #CC086A;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+
+.AdRectangle {
+	height: 250px;
+	width: 300px;
+	border: 1px solid #666;
+}
+.NoBorder td, table{
+	padding: 4px;
+	border: 0px;
+	}
+.coupon {
+	color: #FFF;
+	font-size: 18px;
+	border: 1px dashed #CCC;
+	padding: 10px;
+	background-color: #21759A;
+}
+.red {
+	color: #CC086A;
+}
